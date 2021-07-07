@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.orange{
+    color: orange;
+}
+
+.flex{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+}
+.even-width>h1,h2,h3,p{
+    margin-top: 3%;
+}
+.even-width{
+    width: 33%;
+    padding: 3%;
+    height: 40%;
+    text-align: center;
+}
+
+.count{
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2%;
+    padding: 4%;
+    box-shadow: 5px  3px 5px 3px #000;
+}
+.countitem>h2{
+    font-size: 29px;
+    text-align: center;
+    font-weight: 800;
+}
+.countitem>p{
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+footer{
+    padding: 4%;
+    background: #000;
+}
+
+footer>p{
+    font-size: 18px;
+    margin: 2%;
+}
